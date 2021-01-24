@@ -3,7 +3,6 @@ debugger;
 
 let objectObj = {};
 let result = objectObj[Symbol.iterator];
-console.log(result);
-
+console.log(result); // undefined
 
 let dummy;
