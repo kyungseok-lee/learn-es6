@@ -3,15 +3,15 @@ debugger;
 
 class Member {
   constructor(){
-    return 1;
+    return 1; // 무시
   }
   getName(){
     return "이름";
   }
 };
-let memberObj = new Member();
-console.log(memberObj);
-console.log(memberObj.getName());
+let member = new Member();
+console.log(member);
+console.log(member.getName());
 
 
 let dummy;

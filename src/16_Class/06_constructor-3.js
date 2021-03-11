@@ -11,11 +11,11 @@ class Member {
 }
 let memberObj = new Member();
 
-console.log(memberObj.name);
-console.log(memberObj.getName);
+console.log(member.name);
+console.log(member.getName);
 
 try {
-  console.log(memberObj.getName()); // error
+  console.log(member.getName()); // error
 } catch (e) {
   console.log('error', e);
 }

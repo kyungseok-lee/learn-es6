@@ -8,4 +8,4 @@ class Member {
 };
 
 let memberObj = new Member();
-console.log(memberObj.getName);
+console.log(member.getName);
