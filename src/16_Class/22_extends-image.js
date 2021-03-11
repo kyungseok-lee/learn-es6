@@ -21,6 +21,6 @@ let properties = {
 
 imageObj.setProperty(properties);
 document.querySelector("body").appendChild(imageObj);
-
+console.log( imageObj.width, imageObj.height );
 
 let dummy;
